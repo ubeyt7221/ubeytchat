@@ -72,13 +72,13 @@ function Login() {
             onChange={inputChange}
           />
           <button type="submit" className="btn form-btn">
-            sign in
+            Giriş yap
           </button>
         </form>
         <p>
           Not a user?{" "}
           <NavLink className="login-link" to={"/register"}>
-            Register
+            Kayıt Ol
           </NavLink>
         </p>
       </div>
